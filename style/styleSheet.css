@@ -1,0 +1,53 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+#sketchBoard
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sketchTile
+{
+    background-color: white;
+
+}
+#colorSelect
+{
+    display: flex;
+}
+li
+{
+    list-style-type: none;
+}
+button
+{
+    width: 200px;
+}
+
+#redButton
+{
+    background-color: red;
+    color: white;
+}
+#blueButton
+{
+    background-color: blue;
+    color: white;
+}
+#blackButton
+{
+    background-color: black;
+    color: white;
+}
+#gridDefinition
+{
+    display: flex;
+}
+
+input
+{
+    width: 200px;
+}
