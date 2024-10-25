@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../etch-a-sketch/scripts/sourcecode.js" defer></script>
+    <link rel="stylesheet" href="../etch-a-sketch/style/styleSheet.css" defer>
+</head>
+<body>
+    
+
+    <label for="gridSize">Enter Grid Width and Height</label>
+    <div id="gridDefinition">
+        <input type="text" name="gridSize" placeholder="Width" id="gridWidth">
+        <input type="text" placeholder="Height" id="gridHeight">
+        <button id="resizeGrid">Resize Grid (clears grid)</button>
+    </div>
+    <ul id="colorSelect">
+        <li id="red"><button id="redButton">Red</button></li>
+        <li id="blue"><button id="blueButton">Blue</button></li>
+        <li id="black"><button id="blackButton">Black</button></li>
+    </ul>
+    <div id="sketchBoard"></div>
+
+</body>
+</html>
